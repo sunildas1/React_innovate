@@ -1,0 +1,59 @@
+#email{
+    padding: 140px 0;
+}
+
+.email-heading h2{
+    width: 820px;
+    font-size: 56px;
+    font-weight: 700;
+    color: #29313D;
+    line-height: 140%;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.email-heading h5{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #545A64;
+    text-align: center;
+    margin: 45px 0 60px 0;
+}
+
+.email-heading h5 span{
+    margin: 0 15px;
+}
+
+.email-send{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.email-send form{
+	width: 512px;
+	padding: 20px 28px;
+	border-radius: 18px;
+	background: #F3EEFE;
+    position: relative;
+}
+
+.email-send form input{
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #29313D;
+    text-transform: capitalize;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.email-send .common-btn{
+    padding: 20px 48px;
+    cursor: pointer;
+}

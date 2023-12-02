@@ -1,0 +1,40 @@
+#business{
+    padding: 100px 0;
+    position: relative;
+}
+
+#business .shap{
+    width: 671px;
+    height: 733px;
+    background: rgba(98, 62, 185, 0.05);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    z-index: -1;
+}
+
+.business-details{
+    display: flex;
+    column-gap: 120px;
+    align-items: center;
+}
+
+.business-text h4{
+    font-size: 56px;
+    font-weight: 700;
+    color: #29313D;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.business-text .text{
+    width: 72%;
+    margin: 24px 0 48px 0;
+}
+
+.business-text button{
+    padding: 20px 48px;
+}

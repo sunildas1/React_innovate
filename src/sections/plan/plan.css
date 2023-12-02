@@ -1,0 +1,96 @@
+#plan{
+    padding: 120px 0 164px 0;
+}
+
+.plan-heading h3{
+    width: 670px;
+    font-size: 56px;
+    font-weight: 700;
+    color: #29313D;
+    text-align: center;
+    line-height: 140%;
+    margin: 0 auto;
+}
+
+.plan-heading .plan-text{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #29313D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.plan-heading .plan-text i{
+    font-size: 40px;
+    color: #8454F5;
+    padding: 0 20px;
+}
+
+.plan-box-wrapper{
+    display: flex;
+    column-gap: 30px;
+}
+
+.plan-box{
+    width: 450px;
+    height: 554px;
+    background: transparent;
+    border-radius: 30px;
+    padding: 48px;
+    margin-top: 160px;
+    transition: .4s;
+}
+
+.plan-box:hover{
+    background: #181059;
+    margin-top: 80px;
+}
+
+.plan-box .plan-text{
+    font-size: 36px;
+    font-weight: 700;
+    color: #29313D;
+    padding-top: 24px;
+    transition: .4s;
+}
+
+.plan-box:hover .plan-text{
+    color: #F8FAFC;
+}
+
+.plan-box ul{
+    margin: 48px 0;
+}
+
+.plan-box ul li{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #545A64;
+    line-height: 120%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+    transition: .4s;
+}
+
+.plan-box:hover ul li{
+    color: #F8FAFC;
+}
+
+.plan-box button{
+    padding: 20px 48px;
+    background: rgba(132, 84, 245, 0.1);
+    color: #8454F5;
+    border: none;
+    transition: .4s;
+}
+
+.plan-box:hover button{
+    background: #8454F5;
+    color: #fff;
+}

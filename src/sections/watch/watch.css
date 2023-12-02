@@ -1,0 +1,47 @@
+#watch{
+    padding: 70px 0;
+}
+
+.watch-wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 228px;
+}
+
+.watch-details{
+    display: flex;
+    align-items: center;
+    column-gap: 136px;
+}
+
+.watch-item{
+    position: relative;
+}
+
+.watch-item .watch{
+    font-size: 64px;
+    font-weight: 600;
+    color: #29313D;
+    line-height: 120%;
+}
+
+.watch-item .text{
+    width: 165px;
+    line-height: 180%;
+    opacity: 0.8;
+}
+
+.watch-item::after{
+    width: 2px;
+    height: 100%;
+    background: #29313D;
+    position: absolute;
+    top: 0;
+    right: -68px;
+    opacity: 0.2;
+    content: "";
+}
+
+.watch-item:last-child::after{
+    content: unset;
+}

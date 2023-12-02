@@ -1,0 +1,65 @@
+#banner{
+    padding: 194px 0 70px 0;
+}
+
+.banner-details{
+    width: 720px;
+    display: flex;
+    column-gap: 123px;
+    align-items: center;
+}
+
+.banner-item h1{
+    width: 720px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #29313D;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.banner-item .text{
+    width: 80%;
+    margin: 40px 0 48px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.banner-item .text::after{
+    width: 6px;
+    height: 80px;
+    background: #FFC556;
+    position: absolute;
+    top: -4px;
+    left: 0;
+    content: "";
+}
+
+.banner-item form{
+	width: 630px;
+	padding: 37px 28px;
+	border-radius: 24px;
+	background: rgba(132, 84, 245, 0.05);
+    position: relative;
+}
+
+.banner-item form input{
+    width: 320px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #29313D;
+    text-transform: capitalize;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.banner-item form .common-btn{
+    padding: 20px 48px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
